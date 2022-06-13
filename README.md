@@ -6,3 +6,5 @@ Kullanılan teknolojiler :
 1.	Client Uygulama için .Net Core
 2.	Önyüz için .Net Core MVC
 3.	Anlık haberleşme için SignalR
+
+Projenin geliştirilebilir olabilmesi için Katmanlı mimari ve SOLID Prensipleri uygulanmıştır.
