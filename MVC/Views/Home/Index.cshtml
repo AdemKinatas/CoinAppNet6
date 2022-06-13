@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">İkon</th>
+            <th scope="col">Kripto Para Adı</th>
+            <th scope="col">Kripto Paranın Anlık Fiyatı</th>
+            <th scope="col">Değişim Oranı(%)</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+</table>
+
+@section Scripts{
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+    }
