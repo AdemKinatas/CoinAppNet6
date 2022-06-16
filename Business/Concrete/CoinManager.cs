@@ -33,8 +33,7 @@ namespace Business.Concrete
             }
             else
             {
-                await _coinDal.AddAsync(coin);
-                return coin;
+                return await AddAsync(coin);
             }
         }
 
